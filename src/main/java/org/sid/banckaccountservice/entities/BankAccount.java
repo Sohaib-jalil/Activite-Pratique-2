@@ -1,10 +1,7 @@
 package org.sid.banckaccountservice.entities;
 
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
+import jakarta.persistence.*;
 import org.sid.banckaccountservice.enums.AccountType;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -22,4 +19,6 @@ public class BankAccount {
     private String currency;
     @Enumerated(EnumType.STRING)
     private AccountType type;
+    @ManyToOne
+    private Customer customer;
 }
