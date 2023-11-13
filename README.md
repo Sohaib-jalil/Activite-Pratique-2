@@ -14,10 +14,13 @@
 11. Créer un Web service GraphQL pour ce Micro-service
 
 - 1. Créer un projet Spring Boot avec les dépendances Web, Spring Data JPA, H2, Lombok
+
 ![image_2023-11-13_102601739](https://github.com/Sohaib-jalil/Activite-Pratique-2-Developpement-de-Micro-Service/assets/92445933/7fddf273-80e3-4dcc-a7d3-9871e7693f48)
 
 - 2. Créer l'entité JPA Compte
+
 ![image_2023-11-13_102656979](https://github.com/Sohaib-jalil/Activite-Pratique-2-Developpement-de-Micro-Service/assets/92445933/c07ab5fd-8ac0-4cbe-841d-4e4421003ad4)
 
 - 3. Créer l'interface CompteRepository basée sur Spring Data
+
 ![image_2023-11-13_102813429](https://github.com/Sohaib-jalil/Activite-Pratique-2-Developpement-de-Micro-Service/assets/92445933/e33fc3ad-e27e-47f1-9bc1-38f07db7a106)
